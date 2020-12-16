@@ -15,11 +15,11 @@ document.getElementById("giocatore").innerHTML = Math.floor(Math.random()*6) +1;
 document.getElementById("pc").innerHTML = Math.floor(Math.random()*6) +1;
 
 //se punteggio giocatore maggiore di punteggio pc vittoria
-if (nGiocatore > nNomputer){
+if (nGiocatore > nComputer){
   esito = "Hai vinto!";
 }
 //se punteggio giocatore minore punteggio pc vittoria
-else if (nGiocatore < nNomputer){
+else if (nGiocatore < nComputer){
   esito = "Hai perso!";
 }
 //mi aspetto che in caso di equivalenza dia pari
